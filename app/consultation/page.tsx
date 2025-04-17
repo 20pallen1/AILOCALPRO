@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Link from 'next/link';
 
 export default function ConsultationPage() {
   const [formData, setFormData] = useState({
@@ -14,11 +15,13 @@ export default function ConsultationPage() {
     projectType: '',
     message: '',
   });
+  const [submitted, setSubmitted] = useState(false);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // TODO: Implement form submission logic
     console.log('Form submitted:', formData);
+    setSubmitted(true);
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -202,6 +205,14 @@ export default function ConsultationPage() {
                 Schedule Consultation
               </button>
             </form>
+            {submitted && (
+              <div className="mt-6 p-4 bg-green-100 text-green-700 rounded-md">
+                <p>Thank you for your interest! We&apos;ll contact you soon.</p>
+                <Link href="/" className="text-[#BB9AF7] hover:underline mt-2 inline-block">
+                  Return to Home
+                </Link>
+              </div>
+            )}
           </div>
 
           {/* Consultation Info */}
