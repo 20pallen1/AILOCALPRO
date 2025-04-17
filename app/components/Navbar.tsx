@@ -24,9 +24,10 @@ export default function Navbar() {
               <Image
                 src="/ALPlogo.png"
                 alt="AI Local Pros Logo"
-                width={40}
-                height={40}
+                width={32}
+                height={32}
                 className="mr-2"
+                priority
               />
               <span className="text-2xl font-bold">
                 <span className="text-[#BB9AF7]">Ai</span>

@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 
 export default function ToolsPage() {
@@ -141,7 +140,7 @@ export default function ToolsPage() {
           <div className="bg-[#24283B] p-12 rounded-2xl">
             <h2 className="text-3xl font-bold text-white mb-6">Ready to Transform Your Business?</h2>
             <p className="text-xl text-[#A9B1D6] mb-8">
-              Let's discuss how our AI tools can help streamline your operations and drive growth.
+              Let&apos;s discuss how our AI tools can help streamline your operations and drive growth.
             </p>
             <Link 
               href="/consultation"

@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 
 export default function CaseStudiesPage() {
@@ -196,7 +195,7 @@ export default function CaseStudiesPage() {
                 key={index}
                 className="bg-[#24283B] p-8 rounded-xl"
               >
-                <div className="text-[#BB9AF7] text-4xl mb-4">"</div>
+                <div className="text-[#BB9AF7] text-4xl mb-4">&ldquo;</div>
                 <p className="text-[#C0CAF5] mb-6">{testimonial.quote}</p>
                 <div>
                   <p className="text-white font-medium">{testimonial.author}</p>
@@ -213,7 +212,7 @@ export default function CaseStudiesPage() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-white mb-6">Ready to Write Your Success Story?</h2>
           <p className="text-xl text-[#A9B1D6] mb-8">
-            Let's discuss how AI can transform your business operations and drive growth.
+            Let&apos;s discuss how AI can transform your business operations and drive growth.
           </p>
           <Link 
             href="/consultation"

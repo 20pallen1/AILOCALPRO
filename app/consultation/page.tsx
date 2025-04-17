@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import Image from 'next/image';
+import Link from 'next/link';
 
 export default function ConsultationPage() {
   const [formData, setFormData] = useState({
@@ -39,7 +39,7 @@ export default function ConsultationPage() {
             <span className="text-[#BB9AF7]">Free</span> Consultation
           </h1>
           <p className="text-[#C0CAF5] text-lg max-w-2xl mx-auto">
-            Let's discuss how AI can transform your business. Schedule a free 30-minute consultation with our experts.
+            Let&apos;s discuss how AI can transform your business. Schedule a free 30-minute consultation with our experts.
           </p>
         </div>
       </section>

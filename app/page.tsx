@@ -116,7 +116,7 @@ export default function Home() {
               }
             ].map((testimonial, index) => (
               <div key={index} className="bg-[#1A1B26] p-8 rounded-xl">
-                <p className="text-[#A9B1D6] mb-6">"{testimonial.quote}"</p>
+                <p className="text-[#A9B1D6] mb-6">&ldquo;{testimonial.quote}&rdquo;</p>
                 <div>
                   <p className="font-bold text-white">{testimonial.name}</p>
                   <p className="text-[#A9B1D6]">{testimonial.role}</p>
