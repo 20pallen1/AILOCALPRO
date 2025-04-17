@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Location Pin with Lightbulb -->
+  <path d="M250 50C175 50 115 110 115 185C115 235 145 280 190 305L250 450L310 305C355 280 385 235 385 185C385 110 325 50 250 50Z" fill="#BB9AF7"/>
+  
+  <!-- Lightbulb -->
+  <circle cx="250" cy="185" r="40" fill="#FF9E64"/>
+  <rect x="235" y="225" width="30" height="60" rx="15" fill="#FF9E64"/>
+  
+  <!-- Circuit Lines -->
+  <path d="M200 185H160" stroke="#F7768E" stroke-width="4"/>
+  <path d="M340 185H300" stroke="#F7768E" stroke-width="4"/>
+  <path d="M250 135V95" stroke="#F7768E" stroke-width="4"/>
+  <circle cx="160" cy="185" r="4" fill="#F7768E"/>
+  <circle cx="340" cy="185" r="4" fill="#F7768E"/>
+  <circle cx="250" cy="95" r="4" fill="#F7768E"/>
+</svg> 

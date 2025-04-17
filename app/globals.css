@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #BB9AF7;
+  --accent-1: #F7768E;
+  --accent-2: #FF9E64;
+  --bg-1: #1A1B26;
+  --bg-2: #24283B;
+  --text-1: #C0CAF5;
+  --text-2: #A9B1D6;
+}
+
+@layer base {
+  body {
+    @apply bg-[#1A1B26] text-[#C0CAF5];
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-[#BB9AF7] text-white px-6 py-3 rounded-lg font-medium hover:bg-opacity-90 transition-all duration-200;
+  }
+  
+  .btn-secondary {
+    @apply bg-transparent border-2 border-[#BB9AF7] text-[#BB9AF7] px-6 py-3 rounded-lg font-medium hover:bg-[#BB9AF7] hover:text-white transition-all duration-200;
+  }
+
+  .section-padding {
+    @apply py-20 px-4 md:px-8 lg:px-16;
+  }
+}
