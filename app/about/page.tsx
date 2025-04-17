@@ -181,7 +181,7 @@ export default function About() {
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">Ready to Transform Your Business?</h2>
           <p className="text-xl text-[#A9B1D6] mb-8">
-            Let's work together to bring the power of AI to your local business.
+            Let&apos;s work together to bring the power of AI to your local business.
           </p>
           <div className="flex justify-center gap-4">
             <Link 
